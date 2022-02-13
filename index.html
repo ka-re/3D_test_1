@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8">
+    <title>E-j型オブジェクトをARで表示</title>
+  </head>
+  <body>
+  <script 
+      type="module"
+      src="https://unpkg.com/@google/model-viewer/dist/model-viewer.js">
+
+  </script>
+
+    <model-viewer  
+    ar
+    alt="Leoモデル"
+    src="E-J_small_0.glb" 
+    ios-src=".usdz" 
+
+    style="width:800px;height:1000px;"                  
+
+    background-color="#70BCD1"
+    shadow-intensity="0.7"
+    camera-controls
+    shadow-intensity = 1  
+    shadow-softness = 0
+
+    interaction-prompt="auto"
+    auto-rotate ar magic-leap>
+
+    
+    </model-viewer>
+  </body>
+</html>
